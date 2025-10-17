@@ -3,7 +3,7 @@ const base_url = "https://phillipml-personal-api.vercel.app/";
 
 const repos = [
   {
-    repoName: "imc-react",
+    repoName: "IMC React",
     id: 0,
     html_url: "https://github.com/Phillipml/imc-react",
     description:
@@ -17,7 +17,7 @@ const repos = [
     role: "Frontend Developer",
   },
   {
-    repoName: "ebac_sports",
+    repoName: "EBAC Sports",
     id: 4,
     html_url: "https://github.com/Phillipml/ebac_sports",
     description:
@@ -38,7 +38,7 @@ const repos = [
     role: "Frontend Developer",
   },
   {
-    repoName: "efood",
+    repoName: "Efood",
     id: 1,
     html_url: "https://github.com/Phillipml/efood",
     description:
@@ -57,7 +57,7 @@ const repos = [
     role: "Frontend Developer",
   },
   {
-    repoName: "contactList",
+    repoName: "Contact List",
     id: 5,
     html_url: "https://github.com/Phillipml/contactList",
     description:
@@ -78,7 +78,7 @@ const repos = [
     role: "Frontend Developer",
   },
   {
-    repoName: "eplay",
+    repoName: "Eplay",
     id: 3,
     html_url: "https://github.com/Phillipml/eplay",
     description:
@@ -92,7 +92,7 @@ const repos = [
   },
 
   {
-    repoName: "django-personal-blog",
+    repoName: "Django Personal Blog",
     id: 7,
     html_url: "https://github.com/Phillipml/django-personal-blog",
     description:
@@ -114,7 +114,7 @@ const repos = [
     role: "Backend Developer",
   },
   {
-    repoName: "LinkedInMessagingAutomation",
+    repoName: "LinkedIn Messaging Automation",
     id: 8,
     html_url: "https://github.com/Phillipml/LinkedInMessagingAutomation",
     description:
@@ -135,7 +135,7 @@ const repos = [
     role: "Automation Developer",
   },
   {
-    repoName: "bookstore-api",
+    repoName: "Bookstore Api",
     id: 2,
     html_url: "https://github.com/Phillipml/bookstore-api",
     description:
