@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+const base_url = "https://phillipml-personal-api.vercel.app/";
 
 const repos = [
   {
@@ -10,7 +11,7 @@ const repos = [
     readme:
       "https://raw.githubusercontent.com/Phillipml/imc-react/main/README.md",
     technologies: ["Vite", "Bootstrap"],
-    thumbnail: "/images/imc-react.png",
+    thumbnail: `${base_url}images/imc-react.png`,
     demo_url: "https://imc-react-amber.vercel.app/",
     highlight: "Componentização, validação de entrada e design responsivo.",
     role: "Frontend Developer",
@@ -30,7 +31,7 @@ const repos = [
       "Styled Components",
       "Create React App",
     ],
-    thumbnail: "/images/ebac_sports.png",
+    thumbnail: `${base_url}images/ebac_sports.png`,
     demo_url: "https://ebac-sports-ecru-one.vercel.app/",
     highlight:
       "E-commerce completo com Redux para estado global, carrinho dinâmico e sistema de favoritos integrado.",
@@ -50,7 +51,7 @@ const repos = [
       "Redux Toolkit",
       "React Router",
     ],
-    thumbnail: "/images/efood.png",
+    thumbnail: `${base_url}images/efood.png`,
     demo_url: "https://efood-livid-ten.vercel.app/",
     highlight: "Sistema completo com 147+ testes unitários e temas dinâmicos.",
     role: "Frontend Developer",
@@ -70,7 +71,7 @@ const repos = [
       "Styled Components",
       "React Router",
     ],
-    thumbnail: "/images/contactList.png",
+    thumbnail: `${base_url}images/contactList.png`,
     demo_url: "https://contact-list-two-wine.vercel.app/",
     highlight:
       "Sistema completo de gerenciamento de contatos com Redux, favoritos, filtros e validação de dados.",
@@ -84,7 +85,7 @@ const repos = [
       "E-commerce de jogos digitais com temas dinâmicos, carrinho inteligente e checkout integrado para uma experiência de compra moderna.",
     readme: "https://raw.githubusercontent.com/Phillipml/eplay/main/README.md",
     technologies: ["React", "TypeScript", "Redux Toolkit", "Styled Components"],
-    thumbnail: "/images/eplay.png",
+    thumbnail: `${base_url}images/eplay.png`,
     demo_url: "https://eplay-three-self.vercel.app/",
     highlight: "E-commerce de games com Redux e temas dinâmicos.",
     role: "Frontend Developer",
@@ -106,7 +107,7 @@ const repos = [
       "pytest",
       "Factory Boy",
     ],
-    thumbnail: "/images/django-personal-blog.png",
+    thumbnail: `${base_url}images/django-personal-blog.png`,
     demo_url: "",
     highlight:
       "Blog completo com ORM Django, sistema de migrações, Class-Based Views, painel admin customizado e cobertura de testes automatizados com pytest.",
@@ -127,7 +128,7 @@ const repos = [
       "nodemon",
       "Chrome/Chromium",
     ],
-    thumbnail: "/images/LinkedInMessagingAutomation.png",
+    thumbnail: `${base_url}images/LinkedInMessagingAutomation.png`,
     demo_url: "",
     highlight:
       "Automação web completa com Puppeteer, personalização dinâmica de mensagens, configuração modular e tratamento inteligente de timeouts para estabilidade.",
@@ -150,7 +151,7 @@ const repos = [
       "Factory Boy",
       "Gunicorn",
     ],
-    thumbnail: "/images/bookstore-api.png",
+    thumbnail: `${base_url}images/bookstore-api.png`,
     demo_url: "",
     highlight:
       "API REST completa com versionamento, ViewSets, paginação inteligente, autenticação múltipla, containerização Docker e cobertura de testes com pytest e Factory Boy.",
