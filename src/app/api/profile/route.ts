@@ -22,6 +22,9 @@ export const GET = async () => {
       login: data.login,
       avatar_url: data.avatar_url,
       bio: data.bio,
+      whatsapp: "https://wa.me/5531984666540",
+      linkedin: "https://www.linkedin.com/in/phillip-menezes-063a39227/",
+      github: "https://github.com/Phillipml",
     };
 
     return NextResponse.json(profile, {
