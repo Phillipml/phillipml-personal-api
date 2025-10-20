@@ -17,7 +17,7 @@ export const repos = [
   },
   {
     repoName: "EBAC Sports",
-    id: 4,
+    id: 1,
     html_url: "https://github.com/Phillipml/ebac_sports",
     description:
       "E-commerce moderno de produtos esportivos com carrinho inteligente e sistema de favoritos. Interface responsiva e gerenciamento de estado robusto para uma experiência de compra fluida.",
@@ -38,7 +38,7 @@ export const repos = [
   },
   {
     repoName: "Efood",
-    id: 1,
+    id: 2,
     html_url: "https://github.com/Phillipml/efood",
     description:
       "Delivery moderno com temas dinâmicos, carrinho inteligente e interface responsiva para uma experiência de pedidos fluida e intuitiva.",
@@ -57,7 +57,7 @@ export const repos = [
   },
   {
     repoName: "Contact List",
-    id: 5,
+    id: 3,
     html_url: "https://github.com/Phillipml/contactList",
     description:
       "Gerenciador completo de contatos com interface intuitiva, sistema de favoritos e filtros avançados. CRUD completo com validação de dados e design responsivo para uma experiência de usuário moderna.",
@@ -78,7 +78,7 @@ export const repos = [
   },
   {
     repoName: "Eplay",
-    id: 3,
+    id: 4,
     html_url: "https://github.com/Phillipml/eplay",
     description:
       "E-commerce de jogos digitais com temas dinâmicos, carrinho inteligente e checkout integrado para uma experiência de compra moderna.",
@@ -91,7 +91,7 @@ export const repos = [
   },
   {
     repoName: "Django Personal Blog",
-    id: 7,
+    id: 5,
     html_url: "https://github.com/Phillipml/django-personal-blog",
     description:
       "Blog pessoal completo desenvolvido com Django, demonstrando arquitetura MVC e melhores práticas do framework Python. Sistema robusto de posts com painel administrativo customizado, URLs amigáveis e interface responsiva para uma experiência moderna de blogging.",
@@ -113,7 +113,7 @@ export const repos = [
   },
   {
     repoName: "LinkedIn Messaging Automation",
-    id: 8,
+    id: 6,
     html_url: "https://github.com/Phillipml/LinkedInMessagingAutomation",
     description:
       "Automação inteligente para envio de mensagens personalizadas no LinkedIn usando Puppeteer. Sistema que automatiza o processo de networking profissional, permitindo envio em massa de mensagens personalizadas com nome do destinatário para networking legítimo e eficiente.",
@@ -134,7 +134,7 @@ export const repos = [
   },
   {
     repoName: "Bookstore Api",
-    id: 2,
+    id: 7,
     html_url: "https://github.com/Phillipml/bookstore-api",
     description:
       "API REST completa para gerenciamento de livraria desenvolvida com Django e Django REST Framework. Sistema robusto que demonstra as melhores práticas de desenvolvimento de APIs, incluindo versionamento, paginação, autenticação múltipla e containerização com Docker para deploy simplificado.",
