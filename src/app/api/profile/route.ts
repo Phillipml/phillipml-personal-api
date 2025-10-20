@@ -8,20 +8,36 @@ export const GET = async () => {
     if (!res.ok) {
       return NextResponse.json(
         { error: "usuário não encontrado" },
-        { status: 404 }
+        {
+          status: 404,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
       );
     }
 
     const data = await res.json();
-
     const profile = {
       login: data.login,
       avatar_url: data.avatar_url,
       bio: data.bio,
     };
 
-    return NextResponse.json(profile);
+    return NextResponse.json(profile, {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
   } catch {
-    return NextResponse.json({ error: "Algo deu errado" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Algo deu errado" },
+      {
+        status: 500,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
+      }
+    );
   }
 };
