@@ -8,7 +8,7 @@ export const repos = [
     html_url: "https://github.com/Phillipml/pingMe",
     description:  "Rede social completa desenvolvida com Next.js e Django, integrando frontend moderno com backend (primeira vez criando e integrando um backend nessa escala). Sistema de posts, perfis de usuário, autenticação segura e interface responsiva para uma experiência fluida e profissional.",
     readme:
-      "https://github.com/Phillipml/pingMe/blob/main/README.md",
+      "https://raw.githubusercontent.com/Phillipml/pingMe/refs/heads/main/README.md",
     technologies: ["NextJS","Typescript", "Tailwind", "RTK Query","Python","Django"],
     thumbnail: `${base_url}images/pingMe.png`,
     demo_url: "https://ping-me-green.vercel.app/",
