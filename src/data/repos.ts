@@ -3,18 +3,17 @@ const base_url = "https://phillipml-personal-api.vercel.app/";
 export const repos = [
   {
     id: 0,
-    repoName: "IMC React",
-    highlight: false,
-    html_url: "https://github.com/Phillipml/imc-react",
-    description:
-      "Calculadora de IMC responsiva com React e Vite. Interface moderna com classificação automática.",
+    repoName: "Ping Me",
+    highlight: true,
+    html_url: "https://github.com/Phillipml/pingMe",
+    description:  "Rede social completa desenvolvida com Next.js e Django, integrando frontend moderno com backend (primeira vez criando e integrando um backend nessa escala). Sistema de posts, perfis de usuário, autenticação segura e interface responsiva para uma experiência fluida e profissional.",
     readme:
-      "https://raw.githubusercontent.com/Phillipml/imc-react/main/README.md",
-    technologies: ["Vite", "Bootstrap"],
-    thumbnail: `${base_url}images/imc-react.png`,
-    demo_url: "https://imc-react-amber.vercel.app/",
-    mainFocus: "Componentização, validação de entrada ez design responsivo.",
-    role: "Frontend Developer",
+      "https://github.com/Phillipml/pingMe/blob/main/README.md",
+    technologies: ["NextJS","Typescript", "Tailwind", "RTK Query","Python","Django"],
+    thumbnail: `${base_url}images/pingMe.png`,
+    demo_url: "https://ping-me-green.vercel.app/",
+    mainFocus: "Integração full-stack Next.js e Django, gerenciamento de estado com RTK Query, autenticação, componentização reutilizável e design responsivo com Tailwind.",
+    role: "FullStack Developer",
   },
   {
     id: 1,
@@ -163,4 +162,19 @@ export const repos = [
       "API REST completa com versionamento, ViewSets, paginação inteligente, autenticação múltipla, containerização Docker e cobertura de testes com pytest e Factory Boy.",
     role: "Backend Developer",
   },
+  {
+    id: 8,
+    repoName: "IMC React",
+    highlight: false,
+    html_url: "https://github.com/Phillipml/imc-react",
+    description:
+      "Calculadora de IMC responsiva com React e Vite. Interface moderna com classificação automática.",
+    readme:
+      "https://raw.githubusercontent.com/Phillipml/imc-react/main/README.md",
+    technologies: ["Vite", "Bootstrap"],
+    thumbnail: `${base_url}images/imc-react.png`,
+    demo_url: "https://imc-react-amber.vercel.app/",
+    mainFocus: "Componentização, validação de entrada e design responsivo.",
+    role: "Frontend Developer",
+  }
 ];
