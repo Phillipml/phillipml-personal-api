@@ -11,7 +11,7 @@ export const repos = [
       "https://raw.githubusercontent.com/Phillipml/catastyle/refs/heads/main/README.md",
     technologies: ["React","Tsup", "Vite", "Styled-Components","Vitest","Storybook"],
     thumbnail: `${base_url}images/catastyle.png`,
-    demo_url: "https://ping-me-green.vercel.app/",
+    demo_url: "https://github.com/Phillipml/catastyle",
     mainFocus: "Integração full-stack Next.js e Django, gerenciamento de estado com RTK Query, autenticação, componentização reutilizável e design responsivo com Tailwind.",
     role: "FullStack Developer",
   },
