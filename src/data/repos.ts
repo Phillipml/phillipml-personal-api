@@ -3,6 +3,20 @@ const base_url = "https://phillipml-personal-api.vercel.app/";
 export const repos = [
   {
     id: 0,
+    repoName: "Catastyle",
+    highlight: true,
+    html_url: "https://github.com/Phillipml/catastyle",
+    description:  "Design System React Styled-Components com instalador via npm install",
+    readme:
+      "https://raw.githubusercontent.com/Phillipml/catastyle/refs/heads/main/README.md",
+    technologies: ["React","Tsup", "Vite", "Styled-Components","Vitest","Storybook"],
+    thumbnail: `${base_url}images/catastyle.png`,
+    demo_url: "https://ping-me-green.vercel.app/",
+    mainFocus: "Integração full-stack Next.js e Django, gerenciamento de estado com RTK Query, autenticação, componentização reutilizável e design responsivo com Tailwind.",
+    role: "FullStack Developer",
+  },
+  {
+    id: 1,
     repoName: "Ping Me",
     highlight: true,
     html_url: "https://github.com/Phillipml/pingMe",
@@ -16,7 +30,7 @@ export const repos = [
     role: "FullStack Developer",
   },
   {
-    id: 1,
+    id: 2,
     repoName: "EBAC Sports",
     highlight: false,
     html_url: "https://github.com/Phillipml/ebac_sports",
@@ -38,7 +52,7 @@ export const repos = [
     role: "Frontend Developer",
   },
   {
-    id: 2,
+    id: 3,
     repoName: "Efood",
     highlight: true,
     html_url: "https://github.com/Phillipml/efood",
@@ -58,7 +72,7 @@ export const repos = [
     role: "Frontend Developer",
   },
   {
-    id: 3,
+    id: 4,
     repoName: "Contact List",
     highlight: false,
     html_url: "https://github.com/Phillipml/contactList",
@@ -80,7 +94,7 @@ export const repos = [
     role: "Frontend Developer",
   },
   {
-    id: 4,
+    id: 5,
     repoName: "Eplay",
     highlight: true,
     html_url: "https://github.com/Phillipml/eplay",
@@ -94,7 +108,7 @@ export const repos = [
     role: "Frontend Developer",
   },
   {
-    id: 5,
+    id: 6,
     repoName: "Django Personal Blog",
     highlight: false,
     html_url: "https://github.com/Phillipml/django-personal-blog",
@@ -117,7 +131,7 @@ export const repos = [
     role: "Backend Developer",
   },
   {
-    id: 6,
+    id: 7,
     repoName: "LinkedIn Messaging Automation",
     highlight: false,
     html_url: "https://github.com/Phillipml/LinkedInMessagingAutomation",
@@ -139,7 +153,7 @@ export const repos = [
     role: "Automation Developer",
   },
   {
-    id: 7,
+    id: 8,
     repoName: "Bookstore Api",
     html_url: "https://github.com/Phillipml/bookstore-api",
     highlight: true,
@@ -163,7 +177,7 @@ export const repos = [
     role: "Backend Developer",
   },
   {
-    id: 8,
+    id: 9,
     repoName: "IMC React",
     highlight: false,
     html_url: "https://github.com/Phillipml/imc-react",
