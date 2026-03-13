@@ -191,4 +191,18 @@ export const repos = [
     mainFocus: "Integração full-stack Next.js e Django, gerenciamento de estado com RTK Query, autenticação, componentização reutilizável e design responsivo com Tailwind.",
     role: "FullStack Developer",
   },
+  {
+    id: 10,
+    repoName: "Umbrella Data Vault",
+    highlight: true,
+    html_url: "https://github.com/Phillipml/umbrella_data_vault",
+    description: "Web scraping com backend em Python e front em Next.js, simulando um sistema de coleta de dados do universo fictício de Resident Evil",
+    readme:
+      "https://raw.githubusercontent.com/Phillipml/umbrella_data_vault/refs/heads/main/README.md",
+    technologies: ["Python","FastAPI","NextJS","Typescript", "Tailwind", "RTK Query"],
+    thumbnail: `${base_url}images/umbrella.png`,
+    demo_url: "https://umbrella-data-vault-u51w.vercel.app/",
+    mainFocus:"Web scraping com backend FastAPI (Python) e front Next.js para coleta e exibição de dados.",
+    role: "FullStack Developer",
+  }
 ];
