@@ -18,7 +18,7 @@ export const repos = [
       "Chrome/Chromium",
     ],
     thumbnail: `${base_url}images/LinkedInMessagingAutomation.png`,
-    demo_url: "",
+    demo_url: null,
     mainFocus:
       "Automação web completa com Puppeteer, personalização dinâmica de mensagens, configuração modular e tratamento inteligente de timeouts para estabilidade.",
     role: "Automation Developer",
@@ -99,7 +99,7 @@ export const repos = [
       "Factory Boy",
     ],
     thumbnail: `${base_url}images/django-personal-blog.png`,
-    demo_url: "",
+    demo_url: null,
     mainFocus:
       "Blog completo com ORM Django, sistema de migrações, Class-Based Views, painel admin customizado e cobertura de testes automatizados com pytest.",
     role: "Backend Developer",
@@ -123,7 +123,7 @@ export const repos = [
       "Gunicorn",
     ],
     thumbnail: `${base_url}images/bookstore-api.png`,
-    demo_url: "",
+    demo_url: null,
     mainFocus:
       "API REST completa com versionamento, ViewSets, paginação inteligente, autenticação múltipla, containerização Docker e cobertura de testes com pytest e Factory Boy.",
     role: "Backend Developer",
@@ -153,7 +153,7 @@ export const repos = [
       "https://raw.githubusercontent.com/Phillipml/catastyle/refs/heads/main/README.md",
     technologies: ["React","Tsup", "Vite", "Styled-Components","Vitest","Storybook"],
     thumbnail: `${base_url}images/catastyle.png`,
-    demo_url: "https://github.com/Phillipml/catastyle",
+    demo_url: null,
     mainFocus: "Integração full-stack Next.js e Django, gerenciamento de estado com RTK Query, autenticação, componentização reutilizável e design responsivo com Tailwind.",
     role: "FullStack Developer",
   },
@@ -204,5 +204,33 @@ export const repos = [
     demo_url: "https://umbrella-data-vault-u51w.vercel.app/",
     mainFocus:"Web scraping com backend FastAPI (Python) e front Next.js para coleta e exibição de dados.",
     role: "FullStack Developer",
+  },
+  {
+    id: 11,
+    repoName: "Storynix",
+    highlight: true,
+    html_url: "https://github.com/Phillipml/storynix-api",
+    description: "Sistema de gerenciamento de posts de um blog, com autenticação simples JWT. Desenvolvido em Python + FastAPI",
+    readme:
+      "https://raw.githubusercontent.com/Phillipml/Storynix-api/refs/heads/main/README.md",
+    technologies: ["Python","FastAPI","Uvicorn","Pydantic", "SQLAlchemy", "Pytest"],
+    thumbnail: `${base_url}images/storynix.png`,
+    demo_url: null,
+    mainFocus:"Gerenciamento de dados e autenticação, utilizando Python, FastAPI e pytest.",
+    role: "Backend Developer",
+  },
+  {
+    id: 11,
+    repoName: "Spec-Codex",
+    highlight: true,
+    html_url: "https://github.com/Phillipml/spec-codex",
+    description: "App mobile desenvolvido com Expo + Tanstack, com gerenciamento de dados extraídos da API da Blizzard em um DB para otimizar as consultas. O aplicativo tem foco em listar skills sobre o jogo World of Warcraft",
+    readme:
+      "https://raw.githubusercontent.com/Phillipml/spec-codex/refs/heads/main/README.md",
+    technologies: ["Expo","React Native","Tanstack","Python","Django Rest Framework","Psycopg"],
+    thumbnail: `${base_url}images/spec-codex.png`,
+    demo_url: null,
+    mainFocus:"App mobile com foco em listar skills vindas da API oficial da Blizzard sobre o jogo World of Warcraft",
+    role: "Fullstack Developer",
   }
 ];
