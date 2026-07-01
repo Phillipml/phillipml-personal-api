@@ -224,10 +224,10 @@ export const repos = [
     repoName: "Spec-Codex",
     highlight: true,
     html_url: "https://github.com/Phillipml/spec-codex",
-    description: "App mobile desenvolvido com Expo + Tanstack, com gerenciamento de dados extraídos da API da Blizzard em um DB para otimizar as consultas. O aplicativo tem foco em listar skills sobre o jogo World of Warcraft",
+    description: "App mobile desenvolvido com Expo + React Query, com gerenciamento de dados extraídos da API da Blizzard em um DB para otimizar as consultas. O aplicativo tem foco em listar skills sobre o jogo World of Warcraft",
     readme:
       "https://raw.githubusercontent.com/Phillipml/spec-codex/refs/heads/main/README.md",
-    technologies: ["Expo","React Native","Tanstack","Python","Django Rest Framework","Psycopg"],
+    technologies: ["Expo","React Native","React Query","Python","Django Rest Framework","Psycopg"],
     thumbnail: `${base_url}images/spec-codex.png`,
     demo_url: null,
     mainFocus:"App mobile com foco em listar skills vindas da API oficial da Blizzard sobre o jogo World of Warcraft",
